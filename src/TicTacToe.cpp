@@ -39,15 +39,14 @@ bool validate(int number)
 		return true;
 	}else
 	{
-		cout << "Please pick a value between 1 and 3" << endl;
+		cout << "Select a value between 1 and 3" << endl;
 		return  false;
 	}
 }
 
 bool gameover()
 {
-	//TODO: Implement this method,verify if any player has won the match of it's being a tie.
-	//Return true if the game is over. Print message informing the user about what just happened.
+	
 	if(false){ // change this with a real condition
 		cout << "You loose" << endl;
 	}

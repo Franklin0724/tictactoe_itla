@@ -15,7 +15,7 @@ void clearScreen();
 void showBoard();
 bool isValidInput(std::istream&);
 bool isAvailable(int , int );
-bool gameOver(); //implement this method
+bool gameOver(); 
 
 
 
